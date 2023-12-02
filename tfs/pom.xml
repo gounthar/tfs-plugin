@@ -4,6 +4,7 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>tfs-parent</artifactId>
     <version>5.157.1-SNAPSHOT</version>
+    <relativePath/>
   </parent>
 
   <artifactId>tfs</artifactId>
@@ -234,7 +235,6 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
       <scope>test</scope>
     </dependency>
     <dependency>
